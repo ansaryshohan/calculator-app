@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>calculator app</title>
+</head>
+
+<body>
+  <header>
+    <h1 class="text-3xl font-semibold">My calculator from today...</h1>
+
+  </header>
+  <main>
+    <div class="grid grid-cols-3 mx-auto w-2/3  gap-3 ">
+      <div id="display-result" class="col-span-3 bg-green-300 mt-5 mb-3 h-20 outline-0 text-center text-5xl"></div>
+
+  <!-- The all clear field     -->
+      <button id="all-clear" class="bg-orange-400 text-white text-2xl font-bold hover:bg-sky-700">AC</button>
+      <button id="single-delete" class="bg-gray-400 text-white text-2xl font-bold hover:bg-sky-700">del</button>
+        
+ <!-- The number element field -->
+      <button id="number-one"class="bg-gray-200 h-16 text-3xl rounded-lg hover:bg-sky-700">1</button> 
+        <button id="number-two"class="bg-gray-200 h-16 text-3xl rounded-lg hover:bg-sky-700">2</button>
+        <button id="number-three"class="bg-gray-200 h-16 text-3xl rounded-lg hover:bg-sky-700">3</button>
+        <button id="number-four"class="bg-gray-200 h-16 text-3xl rounded-lg hover:bg-sky-700">4</button>
+        <button id="number-five"class="bg-gray-200 h-16 text-3xl rounded-lg hover:bg-sky-700">5</button>
+        <button id="number-six"class="bg-gray-200 h-16 text-3xl rounded-lg hover:bg-sky-700">6</button>
+        <button id="number-seven"class="bg-gray-200 h-16 text-3xl rounded-lg hover:bg-sky-700">7</button>
+        <button id="number-eight"class="bg-gray-200 h-16 text-3xl rounded-lg hover:bg-sky-700">8</button>
+        <button id="number-nine"class="bg-gray-200 h-16 text-3xl rounded-lg hover:bg-sky-700">9</button>
+        <button id="number-zero"class="bg-gray-200 h-16 text-3xl rounded-lg hover:bg-sky-700">0</button>
+
+  <!-- The oparetors field       -->
+        <button id="plus-oparetor" class="bg-gray-400 h-16 text-5xl rounded-lg text-white hover:bg-sky-700">+</button>
+        <button id="minus-oparetor"class="bg-gray-400 h-16 text-5xl rounded-lg text-white hover:bg-sky-700">-</button>
+        <button id="multi-oparetor"class="bg-gray-400 h-16 text-5xl rounded-lg text-white hover:bg-sky-700">*</button>
+        <button id="division-oparetor" class="bg-gray-400 h-16 text-5xl rounded-lg text-white hover:bg-sky-700">/</button>
+<!-- The equals to field -->
+        <button id="result-equal" class="col-span-2 bg-orange-400 text-white h-16 text-5xl text-center rounded-lg">=</button>
+    </div>
+  </main>
+
+  <script src="utilities.js"></script>
+<script src="index.js"></script>
+</body>
+
+</html>
